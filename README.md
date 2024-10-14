@@ -1,3 +1,2 @@
-# Richka
+# Richka - Python Async Download Engine
 
-Python Async Download Engine
