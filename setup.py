@@ -21,17 +21,22 @@ setup(
     version=about["__version__"],
     description=about["__description__"],
     packages=find_packages(),
+    install_requires=[
+        "aiohttp",
+    ],
     url=about["__url__"],
     license=about["__license__"],
     author=about["__author__"],
     author_email=about["__author_email__"],
     long_description_content_type="text/markdown",
     long_description=readme,
-    install_requires=[
-    ],
+    python_requires='>=3.9',
     classifiers=[
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12',
         'Programming Language :: Python :: 3 :: Only',
     ],
     entry_points={
