@@ -1,5 +1,7 @@
 # Richka - Python Async Download Engine
 
+![Project Version](https://img.shields.io/pypi/v/richka) ![Python Version](https://img.shields.io/pypi/pyversions/richka)
+
 #### Richka (From Ukrainian: Рiчка) means river, stands for the download speed of Richka Engine
 
 ## Usage

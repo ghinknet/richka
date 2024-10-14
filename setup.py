@@ -8,7 +8,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with open(os.path.join(here, "richka", "__version__.py"), "r") as f:
     exec(f.read(), about)
 
-with open("README.md", "r") as f:
+with open("README.md", "r", encoding="utf-8") as f:
     readme = f.read()
 
 if sys.argv[-1] == "publish":

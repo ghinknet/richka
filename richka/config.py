@@ -2,7 +2,7 @@ import richka
 
 import logging
 
-__VERSION = ("Alpha", 0, 0, 1)
+__VERSION = ("Alpha", 0, 0, 2)
 USER_AGENT = f"Richka{__VERSION[0]}/{__VERSION[1]}.{__VERSION[2]}.{__VERSION[3]}"
 HEADERS = {"user-agent": USER_AGENT}
 COROUTINE_LIMIT = 10
