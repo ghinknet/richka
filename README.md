@@ -4,6 +4,9 @@
 
 #### Richka (From Ukrainian: Рiчка) means river, stands for the download speed of Richka Engine
 
+#### This project is only active on GitHub (https://github.com/ghinknet/richka), repositories on any other platform are mirror
+#### We will not process PRs or Issues outside of GitHub
+
 ## Usage
 
 `import richka` and run script in your code, for example:
